@@ -3,11 +3,13 @@ using System.Collections;
 
 public class Death : MonoBehaviour {
 
-	void onTriggerEnter( Collider other )
+	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.CompareTag("Kill"))
+		
+		if (other.gameObject.CompareTag("Player"))
 		{
-			print ("You are dead!");
+			print("Game Over!");
+			Application.LoadLevel("Menu");
 		}
 	}
 }
