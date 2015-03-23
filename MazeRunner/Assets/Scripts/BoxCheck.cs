@@ -2,18 +2,12 @@
 using System.Collections;
 
 public class BoxCheck : MonoBehaviour {
-
-    public GameObject button;
-
-
-	// Use this for initialization
-	void Start () {
 	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+	public bool Activated;
 
+	void Start ()
+	{
+		Activated = false;
 	}
 
     void OnTriggerStay(Collider other)
@@ -21,12 +15,11 @@ public class BoxCheck : MonoBehaviour {
 
         if (other.gameObject.CompareTag("Player"))
         {
-            print("Colliding with Collider");
+            //print("Colliding with Collider");
             if (Input.GetKeyUp("e"))
             {
-                button.transform.position = new Vector3(0, 0, 0);
-                print("Boxed Moved!");
-                Destroy(this);
+				Activated = !Activated;
+                print("Triggered! - Current state: " + Activated);
             }
         }
     }
