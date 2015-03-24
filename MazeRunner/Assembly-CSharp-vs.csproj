@@ -52,7 +52,7 @@
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\RotatingPlatform.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Funnykid/Documents/MazeRunner/MazeRunner/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/External/Documents/MazeRunner/MazeRunner/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>

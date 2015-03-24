@@ -1,11 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Death.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MenuScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\RotatingPlatform.cs" Line="16" Column="55" />
-      <File FileName="Assets\Scripts\BoxCheck.cs" Line="22" Column="52" />
-      <File FileName="Assets\Scripts\Door.cs" Line="20" Column="56" />
-      <File FileName="Assets\Scripts\Death.cs" Line="16" Column="1" />
+      <File FileName="Assets\Scripts\MenuScript.cs" Line="26" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

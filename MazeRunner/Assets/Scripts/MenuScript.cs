@@ -22,11 +22,11 @@ public class MenuScript : MonoBehaviour {
 
     void OnGUI()
     {
-        if (GUI.Button(button1, texture1))
+        if (GUI.Button(button1, "Start Game"))
         {
             Application.LoadLevel("MainScene"); 
         }
-        if (GUI.Button(button2, texture2))
+        if (GUI.Button(button2, "Quit Game"))
         {
             Application.Quit();
         }
